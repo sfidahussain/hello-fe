@@ -43,3 +43,12 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+node/node_modules/
+target/
+src/main/resources/static/*
+package-lock.json
+*.iml
+node/npm.cmd
+node/node
+package-lock.json
+node/npm
