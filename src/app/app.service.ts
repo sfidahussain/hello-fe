@@ -9,8 +9,8 @@ export class AppService {
   constructor(private http: HttpClient) { }
 
   getConfig() {
-    const url = window.location.host + '/api/hello';
+    const url = window.location.host + '/api/';
     console.log(url);
-    return this.http.get<any>(url);
+    return this.http.get<any>('/api/');
   }
 }
